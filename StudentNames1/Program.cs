@@ -1,12 +1,14 @@
 ﻿using System;
+using System.IO;
 
-namespace StudentNames1
+namespace StudentNames
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Logic ProgramLogic = new Logic();
+            ProgramLogic.Run();
         }
     }
 }
